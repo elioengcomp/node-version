@@ -1,6 +1,6 @@
 {
   "name": "node-version",
-  "version": "2.2.21",
+  "version": "2.2.22",
   "description": "NodeJS example fo CI/CD",
   "author": "Jainish Shah",
   "license": "UNLICENSED",
@@ -22,7 +22,8 @@
     "serve-favicon": "~2.4.5",
     "assert": "latest",
     "semver-regex": "latest",
-    "jquery": "1.6.2"
+    "jquery": "1.6.2",
+    "ecstatic": "0.4.13"
   },
   "keywords": [
     "npm-version"
