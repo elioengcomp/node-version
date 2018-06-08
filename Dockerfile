@@ -8,13 +8,13 @@ WORKDIR /usr/src/app
 COPY ./package /usr/src/app
 
 # Copy npm configurations
-COPY npmrc ~/.npmrc
+COPY npmrc /root/.npmrc
 
 # Install app dependencies
 RUN npm install
 
 # Cleanup Artifactory information
-RUN rm ~/.npmrc
+RUN rm /root/.npmrc
 
 EXPOSE 3000
 
