@@ -5,7 +5,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Bundle app source
-COPY ./app /usr/src/app
+COPY ./package /usr/src/app
 
 # Copy npm configurations
 COPY npmrc ~/.npmrc
